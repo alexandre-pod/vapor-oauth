@@ -2,7 +2,7 @@ name: Vapor OAuth
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "main", "tmp/ci-run" ]
     tags:
       - '*'
   pull_request:
